@@ -1,0 +1,28 @@
+{
+  "applinks":{
+    "apps":[
+       
+    ],
+    "details":[
+      {
+        "appIDs":[
+          "D78VT49YD7.com.icoc.projects"
+        ],
+        "components":[
+          {
+            "/":"/songs/*",
+            "comment":"Matches URL with a path /songs"
+          },
+          {
+            "/":"/biblestudy/*",
+            "comment":"Matches any URL with a path that starts with /biblestudy/."
+          },
+          {
+            "/":"/qanda/*",
+            "comment":"Matches URL with a path /qanda."
+          }
+        ]
+      }
+    ]
+  }
+}
