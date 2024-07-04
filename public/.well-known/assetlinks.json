@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ru.icoc.app",
+      "sha256_cert_fingerprints":
+      ["34:fd:e5:87:34:8f:54:c5:0d:6d:3e:83:19:93:3c:5c:70:dd:90:c7:47:00:1c:e3:c4:32:ee:14:fb:7b:07:d1"]
+    }
+  }]
