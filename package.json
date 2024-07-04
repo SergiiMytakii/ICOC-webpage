@@ -11,6 +11,7 @@
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.4.0",
     "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/resources": "^1.25.1",
     "next": "^14.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
