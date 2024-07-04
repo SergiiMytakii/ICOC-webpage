@@ -20,6 +20,10 @@
           {
             "/":"/qanda/*",
             "comment":"Matches URL with a path /qanda."
+          },
+          {
+            "/":"*",
+            "comment":"Matches all url"
           }
         ]
       }
