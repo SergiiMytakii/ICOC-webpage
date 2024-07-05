@@ -10,15 +10,19 @@
         ],
         "components":[
           {
-            "/":"/songs/*",
-            "comment":"Matches URL with a path /songs"
+            "/":"/songbook/songs/*",
+            "comment":"Matches URL with a path /songbook/songs"
           },
           {
-            "/":"/biblestudy/*",
+            "/":"/biblestudy/onetopic/onelesson/*",
             "comment":"Matches any URL with a path that starts with /biblestudy/."
           },
           {
-            "/":"/qanda/*",
+            "/":"/qanda/oneqanda/*",
+            "comment":"Matches URL with a path /qanda."
+          },
+          {
+            "/":"/video/listvideos/videoplayer/*",
             "comment":"Matches URL with a path /qanda."
           },
           {
