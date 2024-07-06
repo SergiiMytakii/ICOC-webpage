@@ -28,11 +28,13 @@ code {
 }
 
 .container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 1rem; /* Add padding to the container */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem; /* Reduce padding on smaller screens */
+  }
 }
 .content-container {
   max-width: 800px; /* Set the maximum width */
