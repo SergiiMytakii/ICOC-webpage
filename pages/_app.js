@@ -2,13 +2,13 @@ import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import '@styles/globals.css'
 
-
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
 
   useEffect(() => {
-    const handleRouteChange = (url) => {
-      if (url !== '/') {
+    const handleRouteChange = (url, { shallow }) => {
+      console.log(url)
+      if (!shallow && url !== '/') {
         router.push('/')
       }
     }
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
     return () => {
       router.events.off('routeChangeStart', handleRouteChange)
     }
-  }, [router.events])
+  }, [router])
 
   return <Component {...pageProps} />
 }
