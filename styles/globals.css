@@ -35,16 +35,40 @@ code {
   align-items: center;
 }
 .content-container {
-  text-align: left;
-  max-width: 800px; /* Adjust the value as needed */
-  margin: 0 auto;
+  max-width: 800px; /* Set the maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 1rem; /* Add some padding for smaller screens */
 }
 
+@media (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  .content-container {
+    padding: 0 0.5rem; /* Reduce padding for smaller screens */
+  }
+
+  .content-container p,
+  .content-container ul {
+    font-size: 0.8rem; /* Reduce font size for smaller screens */
+  }
+}
 .image-container {
   display: flex;
-  gap: 2rem; 
-  padding: 3rem;
+  gap: 1rem; 
+  padding: 2rem;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  justify-content: center;
 
+}
+@media (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  .image-container {
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
+  }
+
+  .image-container a {
+    margin-bottom: 1rem; /* Add some spacing between images */
+  }
 }
 
 .image-container img {

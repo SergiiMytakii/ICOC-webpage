@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Image from 'next/image'
-import MyApp from './_app'
 
 
 
@@ -22,7 +21,7 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to ICOC app!" />
-        <img src="/icoclfullogo.jpg" alt="ICOC Logo" />
+        <Image src="/icoclfullogo.jpg" alt="ICOC Logo"  width={800} height={300}  layout="responsive"/>
         <div className="content-container">
           <p>Now there's no need to carry paper literature, all necessary materials are in the app.</p>
 
