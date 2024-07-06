@@ -39,11 +39,11 @@ export default function Home() {
         </h2>
         <div className="image-container">
           <a href="https://play.google.com/store/apps/details?id=ru.icoc.app" target="_blank" rel="noopener noreferrer">
-            <Image src="/512x512.png" alt="Google Play Market" width={150} height={50} layout="responsive" />
+            <Image src="/512x512.png" alt="Google Play Market" width={200} height={50}  />
           </a>
 
           <a href="https://apps.apple.com/us/app/icoc/id1585486521" target="_blank" rel="noopener noreferrer">
-            <Image src="/appstore.png" alt="App Store" width={150} height={50} layout="responsive" />
+            <Image src="/appstore.png" alt="App Store" width={200} height={50}  />
           </a>
         </div>
       </main>
