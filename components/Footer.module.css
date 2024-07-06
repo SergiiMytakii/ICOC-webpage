@@ -7,7 +7,26 @@
   align-items: center;
 }
 
-.logo {
-  height: 3em;
-  margin: 5px;
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactsContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.iconContainer {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
 }
