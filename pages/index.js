@@ -21,7 +21,11 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to ICOC app!" />
-        <Image src="/icoclfullogo.jpg" alt="ICOC Logo"  width={800} height={300}  layout="responsive"/>
+        <div style={{ position: 'relative', width: '100%', height: '200px' }}>
+
+          <Image src="/icoclfullogo.jpg" alt="ICOC Logo" layout="fill"
+            objectFit="contain" />
+        </div>
         <div className="content-container">
           <p>Now there's no need to carry paper literature, all necessary materials are in the app.</p>
 
@@ -41,11 +45,11 @@ export default function Home() {
         </h2>
         <div className="image-container">
           <a href="https://play.google.com/store/apps/details?id=ru.icoc.app" target="_blank" rel="noopener noreferrer">
-            <Image src="/512x512.png" alt="Google Play Market" width={200} height={50}  />
+            <Image src="/512x512.png" alt="Google Play Market" width={200} height={50} />
           </a>
 
           <a href="https://apps.apple.com/us/app/icoc/id1585486521" target="_blank" rel="noopener noreferrer">
-            <Image src="/appstore.png" alt="App Store" width={200} height={50}  />
+            <Image src="/appstore.png" alt="App Store" width={200} height={50} />
           </a>
         </div>
       </main>
