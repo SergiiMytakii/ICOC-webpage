@@ -16,8 +16,12 @@ export default function Home() {
         <meta name="description" content="International Churches of Christ" />
         <meta property="og:title" content="ICOC" />
         <meta property="og:description" content="Open in the app" />
-        <meta property="og:image" content="/icoclogo.jpg" />
+        <meta property="og:image" content="https://icoc.netlify.app/icoclogo.jpg" />
         <meta property="og:url" content="https://icoc.netlify.app" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="ICOC" />
+        <meta name="twitter:description" content="Open in the app" />
+        <meta name="twitter:image" content="https://icoc.netlify.app/icoclogo.jpg" />
 
       </Head>
 
